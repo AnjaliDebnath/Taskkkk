@@ -1,0 +1,9 @@
+@media (max-width: 640px) {
+    .sidebar-title {
+      font-size: 1.5rem; /* Smaller font size for headings on small screens */
+    }
+  
+    .sidebar-item {
+      font-size: 0.875rem; /* Smaller font size for list items */
+    }
+  }
