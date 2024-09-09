@@ -1,0 +1,209 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      {\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Anurag Saini  } \\ \vspace{1pt}
+    Maswasi Swar Rampur(244924)
+   \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ 9557180861  ~ \href{mailto:agarwalayushmaan88@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{anusaini80861@gmail.com}} ~ 
+    \href{https://portfolio1-2iii.vercel.app/}{\raisebox{-0.2\height}\faGlobe\ \underline{Portfolio}}  ~
+    \href{https://www.linkedin.com/in/anurag-saini-72542a259}{\raisebox{-0.2\height}\faLinkedin\ \underline{{linkedin}}}  ~
+    \href{https://github.com/anurag80861}{\raisebox{-0.2\height}\faGithub\ \underline{{github}}}
+    \vspace{-8pt}
+\end{center}
+
+
+
+
+
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Portfolio  } $|$ {HTML,CSS,Javascript — \href{https://casefinal1111.vercel.app/}{\textbf{Deployed Link}} }}{}
+          \resumeItemListStart
+           \resumeItem{Repository link: \href{https://github.com/Ayushmaanagarwal1211/casefinal}{\textbf{Github}}}
+\resumeItem{\textbf{Modern UI/UX Design}: Implemented a clean and intuitive design with smooth navigation to enhance user experience.}
+\resumeItem{\textbf{Interactive Elements}: Utilized JavaScript to create dynamic elements such as project filtering, animations, and smooth scrolling.}
+\resumeItem{\textbf{Responsive Layout}: Developed a fully responsive interface compatible across all devices, including desktops, tablets, and mobile phones.}
+\resumeItem{Cross-browser Compatibility: Ensured seamless performance on multiple browsers.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Weather Application  } $|$ {MERN Stack, Tailwind CSS  —  \href{https://blogfinal-v9xb.vercel.app/}{\textbf{Deployed Link}} }}{}
+          \resumeItemListStart
+          \resumeItem{Repository link: \href{https://github.com/Ayushmaanagarwal1211/blogfinal}{\textbf{Github}}}
+
+\resumeItem{\textbf{REST API Integration}: Fetched and displayed current weather data using a third-party weather API (e.g., OpenWeatherMap API), including temperature, humidity, wind speed, and weather conditions.}
+\resumeItem{\textbf{Dynamic UI Updates}: Created a responsive, user-friendly interface that updates weather details based on the user's location or manual input of city names.}
+\resumeItem{\textbf{Geolocation: Integrated browser geolocation API to fetch weather data automatically based on the user's current location.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          \resumeProjectHeading
+          {\textbf{Blogpost} $|$ {MERN Stack —  \href{https://ayushmaanagarwal1211.github.io/Ai-Bot/}{\textbf{Deployed Link}}}}{}
+          \resumeItemListStart
+            \resumeItem{Repository link: \textbf{\href{https://github.com/Ayushmaanagarwal1211/Ai-Bot}{Github}}}
+\resumeItem{Developed a responsive blog app with JWT Authentication.
+
+}
+\resumeItem{Implemented the backend for CRUD operations on blogs, ensuring full functionality for creating, reading, updating, and
+deleting posts
+}
+
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Web Development  }{: Mern Stack ,Next.js } \\
+     \textbf{Programming Languages }{: JavaScriptl,HTML,CSS } \\
+     \textbf{Tools \& Technologies }{:Rest API ,MongoDB,Express } \\\textbf{Other Skills  }{: SEO, Responsive Design  }\\\textbf{Containerization}   }{: Docker   }\\\textbf{Version Control }   }{: Git,Github
+   }
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\textbf{M.I.T Moradabad Institute of technology} ( 8 CGPA )  }{Sep. 2021 – May 2025 }
+      {Bachelor of Science in Computer Science(6.8 S.G.P.A) }{Moradabad, Uttar Pradesh }
+       \resumeSubheading
+      {\textbf{R.K.S.V.M.I.C School 12th 74.6 (2021)}  }{April 2021  }
+      {}{}
+  \resumeSubHeadingListEnd
+        
+    \resumeSubHeadingListEnd
+
+
+\end{document}
